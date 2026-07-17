@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Cuisine_of_Guinea", :id "gin.dish.fou-fou", :kind :dish, :name-local "Tôreuy", :country "GIN", :retrieved-at "2026-07-17", :summary "Savoury dough topped with okra sauce, one of the staple dishes of Guinean cuisine.", :name "Fou fou", :url-provenance :wikipedia-en}
+#:culture{:id "gin.dish.maafe", :name "Maafe", :country "GIN", :kind :dish, :summary "Peanut-sauce stew listed among the sauces of Guinean cuisine; the stew is a staple across Western Africa with origins in Senegal and Mali.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gin.dish.footi", :name "Footi", :country "GIN", :kind :dish, :summary "Thick Guinean sauce of eggplants, onions, kidney beans and tomatoes.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gin.beverage.bissap", :name "Bissap", :country "GIN", :kind :beverage, :summary "Purple-coloured hibiscus drink, sometimes including mint, one of the common beverages of Guinean cuisine.", :url "https://en.wikipedia.org/wiki/Cuisine_of_Guinea", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gin.product.fonio", :name "Fonio", :country "GIN", :kind :product, :summary "Cultivated West African grain vital to rural areas such as Guinea's Fouta Djallon mountains; Guinea produces the most fonio in the world, over 75% of world production in 2019.", :url "https://en.wikipedia.org/wiki/Fonio", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gin.craft.balafon", :name "Balafon", :country "GIN", :kind :craft, :summary "Gourd-resonated West African xylophone, originating in Mali and historically centred in Guinea, recognised by UNESCO as intangible cultural heritage since 2001.", :url "https://en.wikipedia.org/wiki/Balafon", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "gin.heritage.mount-nimba", :name "Mount Nimba Strict Nature Reserve", :country "GIN", :kind :heritage, :summary "Transnational nature reserve spanning Guinea and Côte d'Ivoire, recognised by UNESCO as a World Heritage Site since 1981 for its exceptional biodiversity.", :url "https://en.wikipedia.org/wiki/Mount_Nimba_Strict_Nature_Reserve", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
