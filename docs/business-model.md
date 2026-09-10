@@ -8,7 +8,7 @@ Guinea.
   décret signed 17 December 2019, Article 16); a priori/a posteriori
   control of the procurement procedure is a SEPARATE body, the Direction
   Générale du Contrôle des Marchés Publics (DGCMP), housed within the
-  Ministère de l'Économie et des Finances (see `src/marketentry/facts.cljc`)
+  Ministère de l'Économie et des Finances (see `src/marketentry/facts.kotoba`)
 - No confirmed dedicated self-service e-procurement portal; notices/
   texts are published via ARMP and the Ministère de l'Économie et des
   Finances' own sites
