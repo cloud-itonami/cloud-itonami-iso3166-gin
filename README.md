@@ -46,7 +46,7 @@ the same supranational company-law instrument):
   currency conflict this iteration found over whether Guinea's
   investment-promotion agency APIP has since been absorbed into a new
   "Agence Guinéenne de Développement" per a March 2026 press report).
-- `src/statute/facts.cljc` -- general-law catalog: the OHADA Uniform
+- `src/statute/facts.kotoba` -- general-law catalog: the OHADA Uniform
   Act on Commercial Companies (AUSCGIE, directly applicable, no
   domestic transposition act -- this iteration independently fetched
   the Traité de Port-Louis' own Article 10 text to confirm), the Code
@@ -72,7 +72,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Guinea:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
